@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    gap: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  
+  .pagination .current {
+    font-weight: bold;
+  }
+
+  .pagination span {
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .show-link {
+    margin-left: 20px;
+  }
+  
+  .edit-link {
+    margin-left: 10px;
+  } 
+ 
